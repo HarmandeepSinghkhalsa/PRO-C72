@@ -10,6 +10,7 @@ import RideHistoryScreen from "../screens/RideHistory";
 const Tab = createBottomTabNavigator();
 
 export default class BottomTabNavigator extends Component {
+  
   render() {
     return (
       <NavigationContainer>
@@ -34,7 +35,8 @@ export default class BottomTabNavigator extends Component {
                 />
               );
             }
-          })}
+          })
+  }
           tabBarOptions={{
             activeTintColor: "#FBE5C0",
             inactiveTintColor: "black",
