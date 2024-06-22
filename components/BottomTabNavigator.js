@@ -37,7 +37,8 @@ export default class BottomTabNavigator extends Component {
             }
           })
   }
-          tabBarOptions={{
+          tabBarOptions={
+            {
             activeTintColor: "#FBE5C0",
             inactiveTintColor: "black",
             style: {
@@ -54,7 +55,8 @@ export default class BottomTabNavigator extends Component {
               alignItems: "center",
               justifyContent: "center"
             }
-          }}
+          }
+      }
         >
           <Tab.Screen name="Ride" component={RideScreen} />
           <Tab.Screen name="Ride History" component={RideHistoryScreen} />
